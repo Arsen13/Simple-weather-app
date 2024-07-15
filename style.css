@@ -104,3 +104,19 @@ body {
     margin-top: 10px;
     display: none;
 }
+
+@media (max-width: 600px) {
+    .search {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search input {
+        width: 80%;
+    }
+    .col p{
+        margin: 0 10px;
+    }
+}
